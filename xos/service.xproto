@@ -1,0 +1,11 @@
+option app_label = "templateservice";
+option name = "templateservice";
+
+message TemplateService (Service){
+    option verbose_name = "Template Service";
+}
+
+
+message TemplateServiceInstance (TenantWithContainer){
+     option verbose_name = "Template Service Instance";
+}
