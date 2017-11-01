@@ -55,7 +55,4 @@ class SyncTemplateServiceInstance(SyncInstanceUsingAnsible):
     # part of the set of default attributes.
     def get_extra_attributes(self, o):
         fields = {}
-        #fields['tenant_message'] = o.tenant_message
-        service = self.get_service(o)
-        #fields['service_message'] = service.service_message
         return fields
