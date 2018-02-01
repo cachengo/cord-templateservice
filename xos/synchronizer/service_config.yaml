@@ -14,7 +14,7 @@
 # limitations under the License.
 
 
-name: templateservice-synchronizer
+name: templateservice
 accessor:
   username: xosadmin@opencord.org
   password: "@/opt/xos/services/templateservice/credentials/xosadmin@opencord.org"
@@ -25,3 +25,4 @@ dependency_graph: "/opt/xos/synchronizers/templateservice/model-deps"
 steps_dir: "/opt/xos/synchronizers/templateservice/steps"
 sys_dir: "/opt/xos/synchronizers/templateservice/sys"
 model_policies_dir: "/opt/xos/synchronizers/templateservice/model_policies"
+models_dir: "/opt/xos/synchronizers/templateservice/models"
